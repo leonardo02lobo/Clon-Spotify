@@ -47,6 +47,11 @@ const createButton = card => {
 	card.addEventListener('mouseout', () => {
 		button.style.display = 'none';
 	});
+
+	// Agregar un evento de clic al botón
+	button.addEventListener('click', () => {
+		window.open('index.html', '_blank');
+	});
 };
 
 // Usamos la función en las dos filas de contenedores

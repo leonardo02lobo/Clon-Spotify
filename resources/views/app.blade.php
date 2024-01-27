@@ -273,35 +273,6 @@
 					</div>
 				</div>
 			</section>
-
-			<!-- Parte final  -->
-			<footer class="footer">
-				<div class="container-links-footer">
-					<div class="links-footer">
-						<h3>Empresa</h3>
-						<a href="#">Acerca de</a>
-						<a href="#">Empleo</a>
-						<a href="#">For the Record</a>
-					</div>
-					<div class="links-footer">
-						<h3>Comunidades</h3>
-						<a href="#">Para artistas</a>
-						<a href="#">Desarrolladores</a>
-						<a href="#">Publicidad</a>
-						<a href="#">Inversores</a>
-						<a href="#">Proveedores</a>
-					</div>
-					<div class="links-footer">
-						<h3>Enlaces útiles</h3>
-						<a href="#">Asistencia</a>
-						<a href="#">App gratis para móvil</a>
-					</div>
-					
-
-
-
-				</div>
-			</footer>
 		</main>
         <div class="banner-botton">
             <button type="button" class="fa-solid fa-shuffle"></button>
