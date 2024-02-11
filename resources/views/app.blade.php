@@ -20,8 +20,7 @@
 					</div>
 				</div>
 				<div class="buttons-user">
-					<a href="#" class="btn-register">Registrarte</a>
-					<a href="#" class="btn-login btn-full">Iniciar sesión</a>
+					<a href="https://github.com/leonardo02lobo/Clon-Spotify" target="_black" class="btn-login btn-full"><i class="fa-brands fa-github"></i>Repositorio</a>
 				</div>
 			</div>
 			<!-- SideBar -->
@@ -61,30 +60,6 @@
 					<button class="btn-favorite-songs">
 						<i class="fa-solid fa-heart"></i>
 						Canciones que te gustan
-					</button>
-				</div>
-
-				<div class="container-links">
-					<div class="container-links-legal">
-						<a href="https://www.spotify.com/ec/legal/">Legal</a>
-						<a href="https://www.spotify.com/ec/privacy/"
-							>Centro de Privacidad</a
-						>
-						<a href="https://www.spotify.com/ec/legal/privacy-policy/"
-							>Política de Privacidad</a
-						>
-						<a href="https://www.spotify.com/ec/legal/cookies-policy/"
-							>Cookies</a
-						>
-						<a
-							href="https://www.spotify.com/ec/legal/privacy-policy/#s3"
-							>Información sobre los anuncios
-						</a>
-					</div>
-
-					<button class="btn-language">
-						<i class="fa-solid fa-globe"></i>
-						Español de España
 					</button>
 				</div>
 			</nav>
@@ -275,11 +250,13 @@
 			</section>
 		</main>
         <div class="banner-botton">
-            <button type="button" class="fa-solid fa-shuffle"></button>
+            <div class="sound">
+			<button type="button" class="fa-solid fa-shuffle"></button>
             <button type="button" class="fa-solid fa-backward"></button>
             <button type="button" class="fa-solid fa-play"></button>
             <button type="button" class="fa-solid fa-forward"></button>
             <button type="button" class="fa-solid fa-repeat"></button>
+			</div>
         </div>
     <script src="{{ asset('js/all.min.js')}}"></script>
     <script src="{{ asset('logic/main.js')}}"></script>

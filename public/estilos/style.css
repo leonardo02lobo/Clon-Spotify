@@ -67,16 +67,8 @@ body {
 	gap: 3rem;
 }
 
-.btn-register {
-	color: #a7a7a7;
-	font-weight: 700;
-	text-decoration: none;
-	font-size: 1.6rem;
-}
-
-.btn-register:hover {
-	color: #fff;
-	transform: scale(1.04);
+.fa-github{
+	margin-right: 1.5rem;
 }
 
 .btn-login {
@@ -192,55 +184,6 @@ body {
 	color: #fff;
 }
 
-.container-links {
-	display: flex;
-	flex-direction: column;
-	padding: 0 2.5rem;
-
-	gap: 2rem;
-	margin-bottom: 5rem;
-}
-
-.btn-language {
-	border: 1px solid #727272;
-	background: none;
-	color: #fff;
-	padding: 1rem;
-	width: 18rem;
-	border-radius: 2rem;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	gap: 0.5rem;
-	font-family: inherit;
-	font-weight: 700;
-	font-size: 1.3rem;
-	cursor: pointer;
-	transition: all 0.4s ease;
-}
-
-.btn-language:hover {
-	transform: scale(1.05);
-}
-
-.btn-language i {
-	font-size: 1.8rem;
-}
-
-.container-links-legal {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 2rem;
-
-	margin-bottom: 3rem;
-}
-
-.container-links-legal a {
-	text-decoration: none;
-	color: #b3b3b3;
-	font-size: 1.2rem;
-}
-
 /* ********************************** */
 /*         CONTENIDO PRINCIPAL        */
 /* ********************************** */
@@ -332,7 +275,7 @@ body {
 /* ********************************** */
 .banner-botton {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 
 	padding: 1rem 2rem;
@@ -386,4 +329,10 @@ body {
 .btn-play i{
     font-size: 2.3rem;
     padding-left: .5rem;
+}
+.sound{
+	width: 30rem;
+	background-color: aqua;
+	display: flex;
+	justify-content: center;
 }
